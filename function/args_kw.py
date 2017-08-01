@@ -15,7 +15,6 @@ data = {
     'Lisa S': 88,
     'F.Bart': 77
 }
-
 print_scores(**data)
 
 def print_info(name, *, gender, city='Beijing', age):
@@ -39,6 +38,5 @@ def hello(greeting, *args):
 hello('Hi') # => greeting='Hi', args=()
 hello('Hi', 'Sarah') # => greeting='Hi', args=('Sarah')
 hello('Hello', 'Michael', 'Bob', 'Adam') # => greeting='Hello', args=('Michael', 'Bob', 'Adam')
-
 names = ('Bart', 'Lisa')
 hello('Hello', *names) # => greeting='Hello', args=('Bart', 'Lisa')
