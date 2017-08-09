@@ -14,15 +14,13 @@
 # else:
 # 	print('您的BMI值为：%f,严重肥胖。' % bmi)
 
-L=['name','sex','birthday']
+L = ['name', 'sex', 'birthday']
 for i in L:
-	print('text1:%s'%i)
-a=list(range(len(L)))
+	print('text1:%s' % i)
+a = list(range(len(L)))
 for i in a:
 	print('text2:' + L[i])
-i=-3
-while i<0:
-	print('text3:'+L[i])
-	i=i+1
-
-
+i = -3
+while i < 0:
+	print('text3:' + L[i])
+	i = i + 1
