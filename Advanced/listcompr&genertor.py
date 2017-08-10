@@ -24,3 +24,20 @@ while True:
 	except StopIteration as e:
 		print('Generator return value is :', e.value)
 		break
+
+
+# 杨辉三角
+def y_triangles():
+	T = [1]
+	while True:
+		yield T
+		T.append(0)
+		T = [T[i-1] + T[i] for i in range(len(T))]
+
+
+n = 0
+for t in y_triangles():
+	print (t)
+	n +=1
+	if n == 10:
+		break
