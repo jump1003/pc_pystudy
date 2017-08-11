@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cddd4b8-cf50-4213-99f8-62dfd05cf731" name="Default" comment="" />
+    <list default="true" id="0cddd4b8-cf50-4213-99f8-62dfd05cf731" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advanced/reduce&amp;map.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,7 @@
     <SUITE FILE_PATH="coverage/Python_study$Slice.coverage" NAME="Slice Coverage Results" MODIFIED="1502098600597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced" />
     <SUITE FILE_PATH="coverage/Python_study$function.coverage" NAME="function Coverage Results" MODIFIED="1501125507162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_study$QQ.coverage" NAME="QQ Coverage Results" MODIFIED="1500865072091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_study$reduce_map.coverage" NAME="reduce&amp;map Coverage Results" MODIFIED="1502441043339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Advanced" />
     <SUITE FILE_PATH="coverage/Python_study$recur_func.coverage" NAME="recur_func Coverage Results" MODIFIED="1501666811989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
     <SUITE FILE_PATH="coverage/Python_study$def_fund.coverage" NAME="def_fund Coverage Results" MODIFIED="1501487393716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
     <SUITE FILE_PATH="coverage/Python_study$list__tuple.coverage" NAME="list$$tuple Coverage Results" MODIFIED="1500876658580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -40,11 +44,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="listcompr&amp;genertor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listcompr&amp;genertor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Advanced/listcompr&amp;genertor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="384">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reduce&amp;map.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Advanced/reduce&amp;map.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -64,6 +78,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Advanced/listcompr&amp;genertor.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Advanced/reduce&amp;map.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,6 +104,8 @@
         <option value="$PROJECT_DIR$/py_basic/study.py" />
         <option value="$PROJECT_DIR$/py_basic/test.py" />
         <option value="$PROJECT_DIR$/Advanced/listcompr&amp;genertor.py" />
+        <option value="$PROJECT_DIR$/Advanced/reduce/map.py" />
+        <option value="$PROJECT_DIR$/Advanced/reduce&amp;map.py" />
       </list>
     </option>
   </component>
@@ -121,7 +138,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,6 +154,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.listcompr&amp;genertor">
+  <component name="RunManager" selected="Python.reduce&amp;map">
     <configuration name="Slice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -377,38 +394,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="recur_func" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="reduce&amp;map" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/function" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_study" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function/recur_func.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/reduce&amp;map.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.recur_func" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Slice" />
-      <item index="2" class="java.lang.String" itemvalue="Python.iterable" />
-      <item index="3" class="java.lang.String" itemvalue="Python.listcompr" />
-      <item index="4" class="java.lang.String" itemvalue="Python.listcompr&amp;genertor" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Slice" />
+      <item index="1" class="java.lang.String" itemvalue="Python.iterable" />
+      <item index="2" class="java.lang.String" itemvalue="Python.listcompr" />
+      <item index="3" class="java.lang.String" itemvalue="Python.listcompr&amp;genertor" />
+      <item index="4" class="java.lang.String" itemvalue="Python.reduce&amp;map" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.listcompr&amp;genertor" />
-        <item index="1" class="java.lang.String" itemvalue="Python.iterable" />
-        <item index="2" class="java.lang.String" itemvalue="Python.listcompr" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Slice" />
-        <item index="4" class="java.lang.String" itemvalue="Python.recur_func" />
+        <item index="0" class="java.lang.String" itemvalue="Python.reduce&amp;map" />
+        <item index="1" class="java.lang.String" itemvalue="Python.listcompr&amp;genertor" />
+        <item index="2" class="java.lang.String" itemvalue="Python.iterable" />
+        <item index="3" class="java.lang.String" itemvalue="Python.listcompr" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Slice" />
       </list>
     </recent_temporary>
   </component>
@@ -505,20 +522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/function/call_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/recur_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/function/function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -747,10 +750,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced/reduce/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Advanced/listcompr&amp;genertor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="384">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced/reduce&amp;map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
       </provider>
