@@ -19,3 +19,4 @@ def bar():
 		logging.exception('log.txt \n begin: %s \n end' % e)
 		# raise ValueError('input err!')
 bar()
+
