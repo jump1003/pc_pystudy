@@ -12,7 +12,7 @@ def move(n, a, b, c):
 		move(n - 1, b, a, c)
 
 
-move(3, 'A', 'B', 'C')
+move(8, 'A', 'B', 'C')
 
 
 # 利用递归函数计算阶乘
