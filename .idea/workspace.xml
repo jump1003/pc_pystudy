@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cddd4b8-cf50-4213-99f8-62dfd05cf731" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IOlearn/Open_Picture.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IOlearn/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/except_erro/MyDict_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/except_erro/doctest_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/except_erro/mydict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/except_erro/use_assert.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/except_erro/xige.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/function/recur_func.py" afterPath="$PROJECT_DIR$/function/recur_func.py" />
-    </list>
+    <list default="true" id="0cddd4b8-cf50-4213-99f8-62dfd05cf731" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -520,7 +510,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19180088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19180088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35643566" sideWeight="0.511713" order="7" side_tool="true" content_ui="tabs" />
