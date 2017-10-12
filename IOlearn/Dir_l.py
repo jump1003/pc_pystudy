@@ -1,4 +1,4 @@
-import os
+import os,sys
 from datetime import datetime
 dict_os={'C':'OS','E':'软件','F':'文档'}
 def Dir_l(path_dir=os.path.abspath('.')):
