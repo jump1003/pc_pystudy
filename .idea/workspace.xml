@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cddd4b8-cf50-4213-99f8-62dfd05cf731" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/re_test/re_email.py" afterPath="$PROJECT_DIR$/re_test/re_email.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/re_test/HASHLIB_TEST.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/re_test/base64_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/re_test/datetime_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,6 +26,8 @@
     <SUITE FILE_PATH="coverage/Python_study$jingdian.coverage" NAME="jingdian Coverage Results" MODIFIED="1507516780189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler" />
     <SUITE FILE_PATH="coverage/Python_study$def_fund.coverage" NAME="def_fund Coverage Results" MODIFIED="1501487393716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
     <SUITE FILE_PATH="coverage/Python_study$do_lock.coverage" NAME="do_lock Coverage Results" MODIFIED="1510887798280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/processing" />
+    <SUITE FILE_PATH="coverage/Python_study$base64_test.coverage" NAME="base64_test Coverage Results" MODIFIED="1511766873466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/re_test" />
+    <SUITE FILE_PATH="coverage/Python_study$datetime_test.coverage" NAME="datetime_test Coverage Results" MODIFIED="1511509762000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/re_test" />
     <SUITE FILE_PATH="coverage/Python_study$html_parser.coverage" NAME="html_parser Coverage Results" MODIFIED="1507534900563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler/baike_spider" />
     <SUITE FILE_PATH="coverage/Python_study$test_bs4.coverage" NAME="test_bs4 Coverage Results" MODIFIED="1507515470400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler" />
     <SUITE FILE_PATH="coverage/Python_study$html_downloader.coverage" NAME="html_downloader Coverage Results" MODIFIED="1507030731438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler/baike_spider" />
@@ -32,6 +37,7 @@
     <SUITE FILE_PATH="coverage/Python_study$QQ.coverage" NAME="QQ Coverage Results" MODIFIED="1500865072091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_study$recur_func.coverage" NAME="recur_func Coverage Results" MODIFIED="1504766087255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function" />
     <SUITE FILE_PATH="coverage/Python_study$list__tuple.coverage" NAME="list$$tuple Coverage Results" MODIFIED="1500876658580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_study$HASHLIB_TEST.coverage" NAME="HASHLIB_TEST Coverage Results" MODIFIED="1511772038309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/re_test" />
     <SUITE FILE_PATH="coverage/Python_study$if__else.coverage" NAME="if&amp;&amp;else Coverage Results" MODIFIED="1503906054309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py_basic" />
     <SUITE FILE_PATH="coverage/Python_study$OS_test.coverage" NAME="OS_test Coverage Results" MODIFIED="1506499792183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IOlearn" />
     <SUITE FILE_PATH="coverage/Python_study$spider_main.coverage" NAME="spider_main Coverage Results" MODIFIED="1507535409035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler/baike_spider" />
@@ -103,11 +109,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="re_email.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="re_email.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/re_test/re_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="621">
+              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datetime_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/re_test/datetime_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+              <folding>
+                <element signature="e#25#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base64_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/re_test/base64_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HASHLIB_TEST.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/re_test/HASHLIB_TEST.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -140,6 +178,7 @@
     <setting file="file://$PROJECT_DIR$/except_erro/xige.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Crawler/test_urllib2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Crawler/baike_spider/spider_main.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/re_test/HASHLIB_TEST.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/class_learn/use_property.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Crawler/baike_spider/html_downloader.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Crawler/baike_spider/html_parser.py" root0="SKIP_INSPECTION" />
@@ -148,9 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Advanced/filter.py" />
-        <option value="$PROJECT_DIR$/Advanced/sorted.py" />
-        <option value="$PROJECT_DIR$/Advanced/decorator.py" />
         <option value="$PROJECT_DIR$/Advanced/__init__.py" />
         <option value="$PROJECT_DIR$/function/__init__.py" />
         <option value="$PROJECT_DIR$/py_basic/__init__.py" />
@@ -199,6 +235,9 @@
         <option value="$PROJECT_DIR$/processing/task_master.py" />
         <option value="$PROJECT_DIR$/processing/task_work.py" />
         <option value="$PROJECT_DIR$/re_test/re_email.py" />
+        <option value="$PROJECT_DIR$/re_test/datetime_test.py" />
+        <option value="$PROJECT_DIR$/re_test/base64_test.py" />
+        <option value="$PROJECT_DIR$/re_test/HASHLIB_TEST.py" />
       </list>
     </option>
   </component>
@@ -229,7 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,13 +285,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
     <property name="last_opened_file_path" value="F:/工作/顶点软件/5.5/中投适当性开发/中投/首页/JSP_SY.xml" />
-    <property name="last.edited.regexp" value="bob@example.asd" />
+    <property name="last.edited.regexp" value="UTC-9:00" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -272,7 +311,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.re_email">
+  <component name="RunManager" selected="Python.HASHLIB_TEST">
+    <configuration name="HASHLIB_TEST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/re_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_study" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/re_test/HASHLIB_TEST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -420,38 +477,38 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="do_lock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="base64_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/re_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_study" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processing/do_lock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/re_test/base64_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="do_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="datetime_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/re_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_study" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processing/do_thread.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/re_test/datetime_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -470,24 +527,6 @@
       <module name="Python_study" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/re_test/re_email.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="task_master" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_study" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processing/task_master.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -511,19 +550,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.do_thread" />
-      <item index="1" class="java.lang.String" itemvalue="Python.do_lock" />
-      <item index="2" class="java.lang.String" itemvalue="Python.task_master" />
-      <item index="3" class="java.lang.String" itemvalue="Python.task_work" />
-      <item index="4" class="java.lang.String" itemvalue="Python.re_email" />
+      <item index="0" class="java.lang.String" itemvalue="Python.task_work" />
+      <item index="1" class="java.lang.String" itemvalue="Python.re_email" />
+      <item index="2" class="java.lang.String" itemvalue="Python.datetime_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.base64_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.HASHLIB_TEST" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.re_email" />
-        <item index="1" class="java.lang.String" itemvalue="Python.task_work" />
-        <item index="2" class="java.lang.String" itemvalue="Python.task_master" />
-        <item index="3" class="java.lang.String" itemvalue="Python.do_thread" />
-        <item index="4" class="java.lang.String" itemvalue="Python.do_lock" />
+        <item index="0" class="java.lang.String" itemvalue="Python.HASHLIB_TEST" />
+        <item index="1" class="java.lang.String" itemvalue="Python.base64_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.datetime_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.re_email" />
+        <item index="4" class="java.lang.String" itemvalue="Python.task_work" />
       </list>
     </recent_temporary>
   </component>
@@ -584,7 +623,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36577708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1429652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35643566" sideWeight="0.511713" order="7" side_tool="true" content_ui="tabs" />
@@ -627,7 +666,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="42" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -649,31 +688,11 @@
         <watch expression="res_data" />
         <watch expression="title_node" />
         <watch expression="os.path.isdir" />
+        <watch expression="new_utc" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/function/call_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function/def_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_learn/super_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-956">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/except_erro/use_assert.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1011,8 +1030,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/re_test/re_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="621">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re_test/datetime_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <element signature="e#25#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re_test/base64_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re_test/HASHLIB_TEST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding />
         </state>
       </provider>
