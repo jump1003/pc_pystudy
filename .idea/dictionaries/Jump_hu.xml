@@ -2,11 +2,14 @@
   <dictionary name="Jump hu">
     <words>
       <w>addr</w>
+      <w>asyncio</w>
       <w>attrs</w>
       <w>bulidserver</w>
       <w>clientinfo</w>
+      <w>coroutine</w>
       <w>createwidgets</w>
       <w>elist</w>
+      <w>erro</w>
       <w>framemsg</w>
       <w>getmsg</w>
       <w>headpic</w>
@@ -15,6 +18,7 @@
       <w>listname</w>
       <w>listusr</w>
       <w>msgcontent</w>
+      <w>msge</w>
       <w>piclogo</w>
       <w>recvfrom</w>
       <w>refreshlist</w>
@@ -26,13 +30,17 @@
       <w>sendmesg</w>
       <w>sendmsgpool</w>
       <w>setblocking</w>
+      <w>signin</w>
       <w>sina</w>
+      <w>smtp</w>
       <w>tcpaddr</w>
       <w>tcpsocket</w>
       <w>titlelist</w>
       <w>udpaddr</w>
       <w>usrname</w>
+      <w>wget</w>
       <w>wlist</w>
+      <w>ymybest</w>
       <w>yweather</w>
     </words>
   </dictionary>
