@@ -6,6 +6,8 @@ class ChatServer(threading.Thread):
 		threading.Thread.__init__(self)
 		# 建立字典存储已连接客户端信息
 		self.clientinfo = {}
+		self.sock_info = {}
+		self.sock = None
 		self.host = "127.0.0.1"
 		self.addr = (self.host, 9999)
 		self.listSocket = None
@@ -36,6 +38,7 @@ class ChatServer(threading.Thread):
 				print('time out')
 				break
 			for sock in rlist:
+				self.sock = str(sock)
 				# self.tcpServer表示有新客户端发出连接请求
 				if sock is self.tcpServer:
 					print('connecting...')
@@ -51,23 +54,32 @@ class ChatServer(threading.Thread):
 						print(e)
 						break
 				elif sock is self.udpServer:
-					# 表示有聊天消息发过来
-					data, addr = sock.recvfrom(1024)
-					# print('recvfrom：%s, from %s' % (data, addr))
-					# 广播
-					for key, value in self.clientinfo.items():
-						sock.sendto(data, value)
-						# print(self.clientinfo.items())
-						# print(key + ':' + value)
+					try:
+						# 表示有聊天消息发过来
+						data, addr = sock.recvfrom(1024)
+						# print('recvfrom：%s, from %s' % (data, addr))
+						# 广播
+						for key, value in self.clientinfo.items():
+							sock.sendto(data, value)
+							# print(self.clientinfo.items())
+							# print(key + ':' + value)
+					except Exception as e:
+						print(e)
 				else:
-					# 客户端发送的命令
-					command = sock.recv(1024).decode('utf-8')
-					print('command: %s' % command)
-					# 若command为空，则说明tcp客户端连接已断开
-					if command:
-						self.parse(command)
-					else:
+					try:
+						# 客户端发送的命令
+						command = sock.recv(1024).decode('utf-8')
+						print('command: %s' % command)
+						# 若command为空，则说明tcp客户端连接已断开
+						if command:
+							self.parse(command)
+						else:
+							self.listSocket.remove(sock)
+					except Exception as e:
+						print(e)
 						self.listSocket.remove(sock)
+						command_exit = 'exit:' + str(sock)
+						self.parse(command_exit)
 		print('out threading')
 		self.tcpServer.close()
 	
@@ -81,8 +93,10 @@ class ChatServer(threading.Thread):
 			self.clientinfo[name] = (host, int(port))
 			print(self.clientinfo)
 			self.sendlistusr()
+			self.sock_info[self.sock] = name
+			print(self.sock_info)
 		if key == 'exit':
-			del self.clientinfo[value]
+			del self.clientinfo[self.sock_info[value]]
 			self.sendlistusr()
 	
 	def sendlistusr(self):

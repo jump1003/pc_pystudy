@@ -105,7 +105,7 @@ class SendMsg(Frame):
         
         
 if __name__ == '__main__':
-    app = SendMsg('admiqn')
+    app = SendMsg('admin')
     # app.process()
     # 设置窗口标题:
     # app.master.title('与***聊天中')
